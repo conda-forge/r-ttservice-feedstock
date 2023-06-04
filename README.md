@@ -1,11 +1,11 @@
-About r-ttservice
-=================
+About r-ttservice-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ttservice-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ttservice
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ttservice-feedstock/blob/main/LICENSE.txt)
 
 Summary: It provides generic methods that are used by more than one package, avoiding conflicts. This package will be imported by 'tidySingleCellExperiment' and 'tidyseurat'.
 
