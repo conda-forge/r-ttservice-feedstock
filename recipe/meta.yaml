@@ -1,4 +1,4 @@
-{% set version = "0.3.8" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ttservice_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ttservice/ttservice_{{ version }}.tar.gz
-  sha256: 24d5f9c5da9bd85cfdc9c5dbe900ea787a9a552d836e3e98096d0209b7c973be
+  sha256: d7a1070c9a27e249602ef398616f1f3dd2b7b5d0d27ce23f17a7af74f3360ee3
 
 build:
   merge_build_host: true  # [win]
